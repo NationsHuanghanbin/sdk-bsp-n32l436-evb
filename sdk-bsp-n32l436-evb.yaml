@@ -1,0 +1,86 @@
+board:
+  buy_url_cn: gmjs.tmall.com
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: DAP-LINK
+  description_en: N/A
+  description_zh: N/A
+  emulator_machine: ''
+  large_image: documents/images/board.jpg
+  name: N32L436-EVB
+  price_cn: N/A CNY
+  price_global: N/A USD
+  sale_contact_cn: 'sales@nationstech.com '
+  sale_contact_global: N/A
+  small_image: documents/images/board_small.png
+  vendor: NATIONS
+  version: '1.2'
+chip:
+  chip_name: N32L436MB
+  clock_source: HSE
+  device_vendor: NATIONS
+  family_name: N32
+  rx_name: PA10
+  series_name: N32L4
+  source_freq: '8000000'
+  sub_series_name: N32L43X
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/UG_N32L436_EVB开发板硬件使用指南V1.2.pdf
+  title: UG_N32L436_EVB开发板硬件使用指南V1.2
+example_projects: []
+features:
+- 'N32L43x Series‒ Low power High perfermance '
+- Rich Analog, Connectivity MCU,ARM Cortex-M4 +FPU based 32-bit MCU up to 108MHz，64/128KB
+  Flash，24/32KB SRAM
+- USB, 1xCANs, 1xDACs ,up to 1xADCs、2xOPAMPs、2xCOMPs、14 communication interfaces,
+  Security
+features_zh:
+- 'N32L43x Series‒ Low power High perfermance '
+- Rich Analog, Connectivity MCU,ARM Cortex-M4 +FPU based 32-bit MCU up to 108MHz，64/128KB
+  Flash，24/32KB SRAM
+- USB, 1xCANs, 1xDACs ,up to 1xADCs、2xOPAMPs、2xCOMPs、14 communication interfaces,
+  Security
+pkg_type: Board_Support_Packages
+pkg_vendor: NATIONS
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: ''
+  project_name: N32L436-EVB
+  project_type: rt-thread|@full|@4.0.2
+yaml_version: 3
